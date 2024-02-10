@@ -23,5 +23,6 @@ package org.example.HW_07_060224.task2;
 public class task2 {
     public static void main(String[] args) {
 
+        // Если успею напишу!
     }
 }
