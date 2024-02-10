@@ -1,13 +1,14 @@
 package org.example.HW_05_300124.task2;
 
 public class CoffeeMachine {
+
+    private static CoffeeMachine instance;
     public enum CoffeeType {
         AMERICANO,
         ESPRESSO,
         LATTE,
         CAPPUCCINO
     }
-    private static CoffeeMachine instance;
 
     private CoffeeMachine() {
         // Инициализация автомата (например, загрузка кофе, воды, etc.)

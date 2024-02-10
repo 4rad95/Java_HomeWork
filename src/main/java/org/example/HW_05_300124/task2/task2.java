@@ -14,8 +14,6 @@ public class task2 {
 
             machine.makeCoffee(CoffeeMachine.CoffeeType.LATTE);
             System.out.println("Приготовлен латте!");
-
-
         }
  }
 
