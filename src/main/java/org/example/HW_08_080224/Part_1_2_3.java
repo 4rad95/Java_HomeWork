@@ -36,9 +36,9 @@ public class Part_1_2_3 {
 
             int sum = 0;
             System.out.print(" Все елементы нашего ArrayLista = { ");
-            for (int element : arrayListInteger) {
-                sum += element;
-                System.out.print(element + " ");
+            for (int i : arrayListInteger) {
+                sum += i;
+                System.out.print(i + " ");
             }
             System.out.println("}");
             System.out.println("ArrayList со случайными числами " + arrayListInteger.toString() + "  Сумма элементов = " + sum);
@@ -72,9 +72,9 @@ public class Part_1_2_3 {
             System.out.println("Перебрать ArrayList и найти наименьший элемент.");
             int min = Integer.MAX_VALUE;
 
-            for (int element : arrayListInteger) {
-                if (min > element) {
-                    min = element;
+            for (int i : arrayListInteger) {
+                if (min > i) {
+                    min = i;
                 }
             }
 
@@ -87,8 +87,8 @@ public class Part_1_2_3 {
             System.out.println("Перебрать ArrayList и найти количество элементов, начинающихся с определенной буквы.");
             int count = 0;
             char letter = 'П';
-            for (MyObject element : list) {
-                if (element.getName().charAt(0) == letter) {
+            for (MyObject myObject : list) {
+                if (myObject.getName().charAt(0) == letter) {
                     count++;
                 }
             }
@@ -102,8 +102,8 @@ public class Part_1_2_3 {
             list.removeIf(object -> object.getAge() > 50);
         }
         System.out.println("Удаляем елементы где возраст более 50 лет");
-        for (MyObject object : list) {
-            System.out.println(object);
+        for (MyObject myObject : list) {
+            System.out.println(myObject);
         }
 
 //Перебрать ArrayList и удалить все четные числа.
@@ -120,8 +120,8 @@ public class Part_1_2_3 {
         System.out.println();
         System.out.println("Перебрать ArrayList и объединить все элементы в одну строку.");
         String str = "";
-        for (MyObject element : list) {
-            str += element.getName() + " "+element.getAge()+" ";
+        for (MyObject myObject : list) {
+            str += myObject.getName() + " " + myObject.getAge()+" ";
         }
         System.out.println("Все елемнты в одну строку : " + str);
     }
