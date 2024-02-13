@@ -108,13 +108,15 @@ public class task2 {
             System.out.println( (endTime - startTime) + "  ListIterator с перемещением от конца списка к началу  " );
 
         }
-            System.out.println();
 
-            System.out.println("Всего "+array[0]+"мс, среднее: "+ (array[0]/10)+ "  помощью for-each loop");
-            System.out.println("Всего "+array[1]+"мс, среднее: "+ (array[1]/10)+ "  классический for, с выполнением условия i<list.size())");
-            System.out.println("Всего "+array[2]+"мс, среднее: "+ (array[2]/10)+ "  классический for, но проходим список с конца до начала (i--)");
-            System.out.println("Всего "+array[3]+"мс, среднее: "+ (array[3]/10)+"   используя Itertor ");
-            System.out.println("Всего "+array[4]+"мс, среднее: "+ (array[4]/10)+"   используя ListIterator и перемещаясь от начала списка до конца");
-            System.out.println("Всего "+array[5]+"мс, среднее: "+ (array[5]/10)+"   используя ListIterator с перемещением от конца списка к началу");
-    }}
+    }
+        System.out.println();
+
+        System.out.println("Всего "+array[0]+" мс, среднее: "+ (array[0]/10)+ "  помощью for-each loop");
+        System.out.println("Всего "+array[1]+" мс, среднее: "+ (array[1]/10)+ "  классический for, с выполнением условия i<list.size())");
+        System.out.println("Всего "+array[2]+" мс, среднее: "+ (array[2]/10)+ "  классический for, но проходим список с конца до начала (i--)");
+        System.out.println("Всего "+array[3]+" мс, среднее: "+ (array[3]/10)+"   используя Itertor ");
+        System.out.println("Всего "+array[4]+" мс, среднее: "+ (array[4]/10)+"   используя ListIterator и перемещаясь от начала списка до конца");
+        System.out.println("Всего "+array[5]+" мс, среднее: "+ (array[5]/10)+"   используя ListIterator с перемещением от конца списка к началу");
+    }
 }
