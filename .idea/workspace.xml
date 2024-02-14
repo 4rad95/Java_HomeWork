@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fd0285-d3ea-4084-ba06-d27274611464" name="Changes" comment="HW5 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_09_130224/task1/AnimalPopulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_09_130224/task1/task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_09_130224/task2/task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_09_130224/task1/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_09_130224/task1/task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RunManager" selected="Application.task2">
@@ -234,7 +232,39 @@
       <option name="project" value="LOCAL" />
       <updated>1707680634873</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1707863236878</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707863236878</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1707863450629</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707863450629</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1707863570891</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707863570891</updated>
+    </task>
+    <task id="LOCAL-00013" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1707945680206</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707945680206</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,14 +280,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init Commit" />
+    <MESSAGE value="HW Commit" />
     <MESSAGE value="HW5 Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="HW5 Commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="arrayListInteger.get(7)" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

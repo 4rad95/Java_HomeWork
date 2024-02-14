@@ -75,8 +75,9 @@ public class task2 {
             System.out.println( (endTime - startTime) + "   классический for в обратном порядке. " );
         }
         { // классический for, но проходим список с конца до начала (i--)
-            long startTime = System.currentTimeMillis();
             Iterator<Integer> itr = list.iterator();
+            long startTime = System.currentTimeMillis();
+
             while (itr.hasNext()){
                      temp = itr.next();
             }
@@ -87,8 +88,8 @@ public class task2 {
 
         {//        e) используя ListIterator и перемещаясь от начала списка до конца
 
-            long startTime = System.currentTimeMillis();
             ListIterator<Integer> itr = list.listIterator();
+            long startTime = System.currentTimeMillis();
             while (itr.hasNext()){
                 temp = itr.next();
             }
