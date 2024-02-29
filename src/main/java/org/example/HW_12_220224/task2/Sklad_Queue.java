@@ -39,7 +39,8 @@ public class Sklad_Queue {
 
         kirpiches1.add(new KirpichSuper(19));
 
-    // Приехал ОБХСС - отчитались!
+    //    Опять приехал ОБХСС - отчитались.
+    //    Наказали невиновных, наградили непричастных
 
         System.out.println(kirpiches1);
 

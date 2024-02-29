@@ -17,31 +17,40 @@ public class Zapravka {
 
 
 
-        PriorityQueue<Transport> zapravka = new PriorityQueue<>(standart);
+        PriorityQueue<Transport> zapravkaQueue = new PriorityQueue<>(standart);
+        PriorityQueue<Transport> extraQueue    = new PriorityQueue<>(extra);
+        PriorityQueue<Transport> peakQueue     = new PriorityQueue<>(peak);
 
-        zapravka.offer(new Transport(9,9, 9, "Легковой автомобиль 1"));
-        zapravka.offer(new Transport(9,9, 9,"Легковой автомобиль 2"));
-        zapravka.offer(new Transport(9,9, 9,"Легковой автомобиль 3"));
-        zapravka.offer(new Transport(0,1, 2,"Скорая помощь"));
-        zapravka.offer(new Transport(9,2, 9,"Автобус"));
-        zapravka.offer(new Transport(9,9, 1,"Технологический транспорт городских служб "));
+        zapravkaQueue.offer(new Transport(9,9, 9, "Легковой автомобиль 1"));
+        zapravkaQueue.offer(new Transport(9,9, 9,"Легковой автомобиль 2"));
+        zapravkaQueue.offer(new Transport(9,9, 9,"Легковой автомобиль 3"));
+        zapravkaQueue.offer(new Transport(0,1, 2,"Скорая помощь"));
+        zapravkaQueue.offer(new Transport(9,2, 9,"Автобус"));
+        zapravkaQueue.offer(new Transport(9,9, 1,"Технологический транспорт городских служб "));
 
-        while (!zapravka.isEmpty()){
-            System.out.println(zapravka.poll());
+        extraQueue.addAll(zapravkaQueue);
+        peakQueue.addAll(zapravkaQueue);
+
+        System.out.println("Стандартная очередь на заправку ");
+        while (!zapravkaQueue.isEmpty()){
+            System.out.println(zapravkaQueue.poll());
     }
         System.out.println();
-        //zapravka = new PriorityQueue<>(Comparator.);
 
-        zapravka.add(new Transport(9,9, 9, "Легковой автомобиль 1"));
-        zapravka.add(new Transport(9,9, 9,"Легковой автомобиль 2"));
-        zapravka.add(new Transport(9,9, 9,"Легковой автомобиль 3"));
-        zapravka.add(new Transport(0,1, 2,"Скорая помощь"));
-        zapravka.add(new Transport(9,2, 9,"Автобус"));
-        zapravka.add(new Transport(9,9, 1,"Технологический транспорт городских служб "));
+        System.out.println("Очередь на заправку в час пик ");
 
-        while (!zapravka.isEmpty()){
-            System.out.println(zapravka.remove());
+        while (!peakQueue.isEmpty()){
+            System.out.println(peakQueue.remove());
         }
+
+        System.out.println();
+
+        System.out.println("Очередь на заправку в Экстренной ситуации  ");
+
+        while (!extraQueue.isEmpty()){
+            System.out.println(extraQueue.remove());
+        }
+
     }
 
     public static Comparator<Transport> standart = new Comparator<Transport>(){

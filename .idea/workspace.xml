@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fd0285-d3ea-4084-ba06-d27274611464" name="Changes" comment="HW5 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10_150224/task1/BankOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10_150224/task1/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10_150224/task1/Talon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10_150224/task2/KucheOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10_150224/task2/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11_200224/task1/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11_200224/task1/RieltorOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11_200224/task2/BankOPeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11_200224/task2/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11_200224/task2/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12_220224/task1/Sklad_Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12_220224/task2/Sklad_Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12_220224/task3/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12_220224/task3/Zapravka.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_12_220224/task3/Zapravka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12_220224/task3/Zapravka.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,37 +47,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Algo.executor": "Run",
-    "Application.BankOPeration.executor": "Run",
-    "Application.BankOperation.executor": "Run",
-    "Application.DietRecommendation.executor": "Run",
-    "Application.KucheOperation.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Part_1_2_3.executor": "Run",
-    "Application.Part_4_5_6.executor": "Run",
-    "Application.RieltorOperation.executor": "Run",
-    "Application.Sklad_Queue.executor": "Run",
-    "Application.Sklad_Stack.executor": "Run",
-    "Application.Task2.executor": "Run",
-    "Application.Zapravka.executor": "Run",
-    "Application.org.example.HW_05_300124.task1.task1.executor": "Run",
-    "Application.org.example.HW_06_010224.task1.task1.executor": "Run",
-    "Application.org.example.HW_06_010224.task2.task2.executor": "Run",
-    "Application.org.example.HW_07_060224.task1.task1.executor": "Run",
-    "Application.org.example.HW_09_130224.task1.task1.executor": "Run",
-    "Application.task1.executor": "Run",
-    "Application.task2.executor": "Run",
-    "Application.task3.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Algo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankOPeration.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DietRecommendation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KucheOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Part_1_2_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Part_4_5_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RieltorOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sklad_Queue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sklad_Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zapravka.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.HW_05_300124.task1.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.HW_06_010224.task1.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.HW_06_010224.task2.task2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.HW_07_060224.task1.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.HW_09_130224.task1.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.HW_11_200224.task2" />
@@ -300,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707945911460</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1709164284355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709164284355</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
