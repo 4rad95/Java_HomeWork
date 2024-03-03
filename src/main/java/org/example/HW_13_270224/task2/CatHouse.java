@@ -61,6 +61,8 @@ public class CatHouse {
         int maxAge = 0;
         String nameMaxWeight = null;
         int maxWeight = 0;
+        String nameMaxAgeWeight = null;
+        int maxAgeWeight = 0;
 
         for (Map.Entry<String, Cat> entry : catHouse.entrySet()) {
             if (entry.getValue().weight > maxWeight) {
@@ -71,9 +73,14 @@ public class CatHouse {
                 nameMaxAge = entry.getKey();
                 maxAge = entry.getValue().age;
             }
+            if (entry.getValue().age*entry.getValue().weight>maxAgeWeight) {
+                nameMaxAgeWeight = entry.getKey();
+                maxAgeWeight = entry.getValue().age*entry.getValue().weight;
+            }
         }
         System.out.println("Самый толстый " + nameMaxWeight);
         System.out.println("Самый опытный " + nameMaxAge);
+        System.out.println("Самый толстоОпытный " + nameMaxAgeWeight);
 
     }
 
