@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fd0285-d3ea-4084-ba06-d27274611464" name="Changes" comment="HW5 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_14_290224/task1/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_14_290224/task2/task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_14_290224/task3/task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task1/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task2/task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task3/task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task4/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task4/tasks4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,9 +77,12 @@
     "Application.org.example.HW_06_010224.task2.task2.executor": "Run",
     "Application.org.example.HW_07_060224.task1.task1.executor": "Run",
     "Application.org.example.HW_09_130224.task1.task1.executor": "Run",
+    "Application.org.example.HW_15_050324.task2.task2.executor": "Run",
+    "Application.org.example.HW_15_050324.task3.task3.executor": "Run",
     "Application.task1.executor": "Run",
     "Application.task2.executor": "Run",
     "Application.task3.executor": "Run",
+    "Application.tasks4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -91,13 +96,13 @@
       <recent name="org.example.HW_11_200224.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task3">
-    <configuration name="BlacksmithDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_14_290224.task3.BlacksmithDay" />
+  <component name="RunManager" selected="Application.tasks4">
+    <configuration name="org.example.HW_15_050324.task2.task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_15_050324.task2.task2" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_14_290224.task3.*" />
+          <option name="PATTERN" value="org.example.HW_15_050324.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_13_270224.task2.CatHouse" />
+    <configuration name="org.example.HW_15_050324.task3.task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_15_050324.task3.task3" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_13_270224.task2.*" />
+          <option name="PATTERN" value="org.example.HW_15_050324.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,25 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_14_290224.task1.Print" />
+    <configuration name="task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_15_050324.task1.task1" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_14_290224.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_14_290224.task2.task2" />
-      <module name="Java_HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.HW_14_290224.task2.*" />
+          <option name="PATTERN" value="org.example.HW_15_050324.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tasks4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_15_050324.task4.tasks4" />
+      <module name="Java_HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.HW_15_050324.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tasks4" />
+        <item itemvalue="Application.org.example.HW_15_050324.task3.task3" />
+        <item itemvalue="Application.org.example.HW_15_050324.task2.task2" />
+        <item itemvalue="Application.task1" />
         <item itemvalue="Application.task3" />
-        <item itemvalue="Application.BlacksmithDay" />
-        <item itemvalue="Application.task2" />
-        <item itemvalue="Application.Print" />
-        <item itemvalue="Application.CatHouse" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709468014830</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1709508075427</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709508075427</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
