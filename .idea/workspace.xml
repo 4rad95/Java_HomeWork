@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fd0285-d3ea-4084-ba06-d27274611464" name="Changes" comment="HW5 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task1/task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task2/task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task3/task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task4/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task4/tasks4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_16_070324/task1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_16_070324/task1/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_16_070324/task2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_16_070324/task2/task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task4/tasks4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_15_050324/task4/tasks4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,7 @@
     "Application.org.example.HW_09_130224.task1.task1.executor": "Run",
     "Application.org.example.HW_15_050324.task2.task2.executor": "Run",
     "Application.org.example.HW_15_050324.task3.task3.executor": "Run",
+    "Application.org.example.HW_16_070324.task1.task1.executor": "Run",
     "Application.task1.executor": "Run",
     "Application.task2.executor": "Run",
     "Application.task3.executor": "Run",
@@ -93,10 +94,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.HW_16_070324.task2" />
       <recent name="org.example.HW_11_200224.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.tasks4">
+  <component name="RunManager" selected="Application.org.example.HW_16_070324.task1.task1">
     <configuration name="org.example.HW_15_050324.task2.task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HW_15_050324.task2.task2" />
       <module name="Java_HomeWork" />
@@ -123,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_15_050324.task1.task1" />
+    <configuration name="org.example.HW_16_070324.task1.task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_16_070324.task1.task1" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_15_050324.task1.*" />
+          <option name="PATTERN" value="org.example.HW_16_070324.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_14_290224.task3.task3" />
+    <configuration name="task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_16_070324.task2.task2" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_14_290224.task3.*" />
+          <option name="PATTERN" value="org.example.HW_16_070324.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.HW_16_070324.task1.task1" />
+        <item itemvalue="Application.task2" />
         <item itemvalue="Application.tasks4" />
         <item itemvalue="Application.org.example.HW_15_050324.task3.task3" />
         <item itemvalue="Application.org.example.HW_15_050324.task2.task2" />
-        <item itemvalue="Application.task1" />
-        <item itemvalue="Application.task3" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709508075427</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1709995499990</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709995499990</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,7 +391,20 @@
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW_16_070324/task1/task1.java</url>
+          <line>97</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.stream.ReferencePipeline$Head" memberName="sourceStage" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

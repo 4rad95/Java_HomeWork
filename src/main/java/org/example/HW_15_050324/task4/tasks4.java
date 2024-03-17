@@ -81,7 +81,7 @@ public class tasks4 {
         System.out.println("8. Сгруппировать сотрудников по должности");
         System.out.println();
 
-        for (Employee  entry:  employeesList) {      // Формирую перечень отделов.
+        for (Employee  entry:  employeesList) {      // Формирую перечень должностей.
             employeeSet.add(entry.jobTitle);
         }
 
@@ -91,7 +91,5 @@ public class tasks4 {
                     .forEach(System.out::println);
                     System.out.println();
                     }
-
-
     }
 }
