@@ -71,9 +71,6 @@ public static  boolean validateCredentials(String login, String password, String
 
 public static class WrongLoginException extends Exception {
 
-    public WrongLoginException() {
-        super();
-    }
 
     public WrongLoginException(String message) {
         super(message);
@@ -82,9 +79,6 @@ public static class WrongLoginException extends Exception {
 
 public static class WrongPasswordException extends Exception {
 
-    public WrongPasswordException() {
-        super();
-    }
 
     public WrongPasswordException(String message) {
         super(message);
