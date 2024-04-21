@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fd0285-d3ea-4084-ba06-d27274611464" name="Changes" comment="HW5 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_18_190324/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_19_210324/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_19_210324/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_19_210324/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_07_20240415/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_07_20240415/ActivitySelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_07_20240415/ActivitySelectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_5_20240325/SpecialStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_5_20240325/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_6_20240408/task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_23_110424/SpecialStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +36,12 @@
     &quot;assignee&quot;: &quot;4rad95&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="6dbc6952-bedb-4134-9c97-0d2f4326be7f" />
-        <option name="url" value="https://github.com/4rad95/Java_HomeWork.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/4rad95/Java_HomeWork.git&quot;,
+    &quot;accountId&quot;: &quot;6dbc6952-bedb-4134-9c97-0d2f4326be7f&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -53,12 +53,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ActivitySelectionTest.executor": "Run",
     "Application.Algo.executor": "Run",
+    "Application.Algorithmen.HW_5_20240325.task1.executor": "Run",
     "Application.BankOPeration.executor": "Run",
     "Application.BankOperation.executor": "Run",
     "Application.BlacksmithDay.executor": "Run",
     "Application.CatHouse.executor": "Run",
     "Application.City.executor": "Run",
+    "Application.ConferenceRoom.executor": "Run",
     "Application.DietRecommendation.executor": "Run",
     "Application.KucheOperation.executor": "Run",
     "Application.Main.executor": "Run",
@@ -82,6 +85,9 @@
     "Application.org.example.HW_15_050324.task3.task3.executor": "Run",
     "Application.org.example.HW_16_070324.task1.task1.executor": "Run",
     "Application.org.example.HW_19_210324.Task1.executor": "Run",
+    "Application.org.example.HW_21_280324.task.executor": "Run",
+    "Application.org.example.HW_23_110424.task1.executor": "Run",
+    "Application.task.executor": "Debug",
     "Application.task1.executor": "Run",
     "Application.task2.executor": "Run",
     "Application.task3.executor": "Run",
@@ -107,13 +113,13 @@
       <recent name="org.example.HW_11_200224.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task2">
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_18_190324.Task1" />
+  <component name="RunManager" selected="Application.ActivitySelectionTest">
+    <configuration name="ActivitySelectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_7_20240415.ActivitySelectionTest" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_18_190324.*" />
+          <option name="PATTERN" value="Algorithmen.HW_7_20240415.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_19_210324.Task2" />
+    <configuration name="Algorithmen.HW_5_20240325.task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_5_20240325.task1" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_19_210324.*" />
+          <option name="PATTERN" value="Algorithmen.HW_5_20240325.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.HW_16_070324.task1.task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_16_070324.task1.task1" />
+    <configuration name="ConferenceRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_07_20240415.ConferenceRoom" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_16_070324.task1.*" />
+          <option name="PATTERN" value="Algorithmen.HW_7_20240415.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.HW_19_210324.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_19_210324.Task1" />
+    <configuration name="org.example.HW_23_110424.task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_23_110424.task1" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_19_210324.*" />
+          <option name="PATTERN" value="org.example.HW_23_110424.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_17_140324.task1" />
+    <configuration name="task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_6_20240408.task" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_17_140324.*" />
+          <option name="PATTERN" value="Algorithmen.HW_6_20240408.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,20 +181,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.org.example.HW_19_210324.Task1" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.task1" />
-        <item itemvalue="Application.org.example.HW_16_070324.task1.task1" />
+        <item itemvalue="Application.ActivitySelectionTest" />
+        <item itemvalue="Application.ConferenceRoom" />
+        <item itemvalue="Application.task" />
+        <item itemvalue="Application.Algorithmen.HW_5_20240325.task1" />
+        <item itemvalue="Application.org.example.HW_23_110424.task1" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-e47b9c39" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -383,7 +382,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710700688725</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1711381175762</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711381175762</updated>
+    </task>
+    <task id="LOCAL-00025" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1713224264341</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713224264341</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,6 +444,7 @@
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.util.stream.ReferencePipeline$Head" memberName="sourceStage" />
+        <PinnedItemInfo parentTag="Algorithmen.HW_6_202408.Node" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
