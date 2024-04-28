@@ -4,6 +4,8 @@ package Algorithmen.HW_6_20240408;
 // Создать искусственно петлю в связном списке.
 // Написать метод detectLoop, который проверяет, есть ли петля в MyLinkedList.
 
+import org.example.HW_06_010224.task2.Item;
+
 public class task {
 
     public static void main(String[] args) {
@@ -73,6 +75,8 @@ class MyLinkedList {
 
         return false; // No loop detected
     }
+   // Item item1 = new Item(currentCapacity,0);
+   // item1.setPrice(item.getPrice)
 }
 
 
