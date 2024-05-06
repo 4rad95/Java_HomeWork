@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fd0285-d3ea-4084-ba06-d27274611464" name="Changes" comment="HW5 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_07_20240415/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_07_20240415/ActivitySelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_07_20240415/ActivitySelectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_5_20240325/SpecialStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_5_20240325/task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithmen/HW_6_20240408/task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_23_110424/SpecialStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_26_180424/robots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/src/main/java/com/diplom/Billing/BillingForMobileCommunicationOperatorsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/src/test/java/com/diplom/Billing/BillingForMobileCommunicationOperatorsApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +62,13 @@
     "Application.Algorithmen.HW_5_20240325.task1.executor": "Run",
     "Application.BankOPeration.executor": "Run",
     "Application.BankOperation.executor": "Run",
+    "Application.BillingForMobileCommunicationOperatorsApplication.executor": "Run",
     "Application.BlacksmithDay.executor": "Run",
     "Application.CatHouse.executor": "Run",
     "Application.City.executor": "Run",
     "Application.ConferenceRoom.executor": "Run",
     "Application.DietRecommendation.executor": "Run",
+    "Application.Digital.executor": "Debug",
     "Application.KucheOperation.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Part_1_2_3.executor": "Run",
@@ -87,8 +93,9 @@
     "Application.org.example.HW_19_210324.Task1.executor": "Run",
     "Application.org.example.HW_21_280324.task.executor": "Run",
     "Application.org.example.HW_23_110424.task1.executor": "Run",
+    "Application.org.example.HW_25_160424.task.executor": "Debug",
     "Application.task.executor": "Debug",
-    "Application.task1.executor": "Run",
+    "Application.task1.executor": "Debug",
     "Application.task2.executor": "Run",
     "Application.task3.executor": "Run",
     "Application.tasks4.executor": "Run",
@@ -113,13 +120,13 @@
       <recent name="org.example.HW_11_200224.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ActivitySelectionTest">
-    <configuration name="ActivitySelectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_7_20240415.ActivitySelectionTest" />
+  <component name="RunManager" selected="Application.BillingForMobileCommunicationOperatorsApplication">
+    <configuration name="BillingForMobileCommunicationOperatorsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diplom.Billing.BillingForMobileCommunicationOperatorsApplication" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithmen.HW_7_20240415.*" />
+          <option name="PATTERN" value="com.diplom.Billing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithmen.HW_5_20240325.task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_5_20240325.task1" />
+    <configuration name="Digital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_8_20240422.Digital" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithmen.HW_5_20240325.*" />
+          <option name="PATTERN" value="Algorithmen.HW_8_20240422.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConferenceRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_07_20240415.ConferenceRoom" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_26_180424.Main" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithmen.HW_7_20240415.*" />
+          <option name="PATTERN" value="org.example.HW_26_180424.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.HW_23_110424.task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_23_110424.task1" />
+    <configuration name="org.example.HW_25_160424.task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_25_160424.task" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_23_110424.*" />
+          <option name="PATTERN" value="org.example.HW_25_160424.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithmen.HW_6_20240408.task" />
+    <configuration name="task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_24_110424.task1" />
       <module name="Java_HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithmen.HW_6_20240408.*" />
+          <option name="PATTERN" value="org.example.HW_24_110424.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ActivitySelectionTest" />
-        <item itemvalue="Application.ConferenceRoom" />
-        <item itemvalue="Application.task" />
-        <item itemvalue="Application.Algorithmen.HW_5_20240325.task1" />
-        <item itemvalue="Application.org.example.HW_23_110424.task1" />
+        <item itemvalue="Application.BillingForMobileCommunicationOperatorsApplication" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.HW_25_160424.task" />
+        <item itemvalue="Application.task1" />
+        <item itemvalue="Application.Digital" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +405,39 @@
       <option name="project" value="LOCAL" />
       <updated>1713224264341</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1713737202376</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713737202376</updated>
+    </task>
+    <task id="LOCAL-00027" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1714342255499</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1714342255499</updated>
+    </task>
+    <task id="LOCAL-00028" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1714345147517</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1714345147517</updated>
+    </task>
+    <task id="LOCAL-00029" summary="HW5 Commit">
+      <option name="closed" value="true" />
+      <created>1714346290261</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1714346290261</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,6 +477,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/HW_30_020524/Billing/src/main/java/com/diplom/Billing/BillingForMobileCommunicationOperatorsApplication.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
